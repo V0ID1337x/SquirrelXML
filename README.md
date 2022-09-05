@@ -3,7 +3,7 @@ Simplest XML parser for Squirrel lang can be used with Gothic 2 Online or Mafia 
 
 #### Example usage:
 
-```
+```squirrel
 local text = "<items><item name=test strength=999/><item price=6/></items>";
 parser <- XmlParser();
 local result = parser.parse(text);
